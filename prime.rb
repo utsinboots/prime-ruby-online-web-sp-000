@@ -18,3 +18,4 @@ def prime?(number)
 
 Benchmark.bm do |x|
   x.report ("Prime? Benchmark") {prime?(411)}
+end
