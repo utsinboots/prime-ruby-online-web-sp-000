@@ -15,7 +15,4 @@ def prime?(number)
    return false
   end
  end
-
-Benchmark.bm do |x|
-  x.report ("Prime? Benchmark") {prime?(411)}
-end
+ 
